@@ -1,0 +1,47 @@
+
+.cards{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color:#FFEBAD;
+    border-radius: 15px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 15px;
+    background-color: #D07000;
+}
+.love{
+    width: 50px;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+.itempack{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.item{
+    width: 120px;
+}
+.trash{
+    width: 50px;
+}
+#total2{
+    background-color: #F1A661;
+    justify-content: flex-start;
+}
+#total2 h1{
+    font-size: 70px;
+    color: #D07000;
+}
+.total{
+    padding: 20px;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+
+}
